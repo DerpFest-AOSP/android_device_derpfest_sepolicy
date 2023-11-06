@@ -15,3 +15,7 @@ allow platform_app system_prop:property_service set;
 
 # Zygote
 allow platform_app zygote:unix_stream_socket getopt;
+
+# Allow launcher app to read memory info
+r_dir_file(platform_app, config_gz)
+r_dir_file(platform_app, sysfs_zram)
