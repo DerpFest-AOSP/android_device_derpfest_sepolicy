@@ -25,6 +25,7 @@ ro.derpfest.display.version            u:object_r:custom_version_prop:s0
 ro.derpfest.build.version              u:object_r:custom_version_prop:s0
 ro.derpfest.build.variant              u:object_r:custom_version_prop:s0
 ro.derpfest.releasetype                u:object_r:custom_version_prop:s0
+ro.derpfest.device                     u:object_r:custom_version_prop:s0
 
 # NFC
 persist.vendor.nfc.config_file_name    u:object_r:vendor_persist_nfc_prop:s0 exact string
