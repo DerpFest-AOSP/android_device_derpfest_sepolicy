@@ -36,3 +36,6 @@ add_service(system_server, theme_engine_service);
 
 # Refresh Rate Manager
 add_service(system_server, refresh_rate_manager_service);
+
+# AxSandbox
+add_service(system_server, ax_sandbox_service);
