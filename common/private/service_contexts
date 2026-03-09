@@ -18,3 +18,4 @@ boost_framework                           u:object_r:boost_framework_service:s0
 refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0
 
 app_lock                                  u:object_r:app_lock_service:s0
+parallel                                  u:object_r:parallel_space_service:s0
