@@ -24,3 +24,9 @@ allow system_app system_prop:property_service set;
 
 # Zygote
 allow system_app zygote:unix_stream_socket getopt;
+
+# Sandbox
+allow system_app ax_sandbox_vault_file:dir create_dir_perms;
+allow system_app ax_sandbox_vault_file:file create_file_perms;
+allow system_app system_data_file:dir search;
+allow system_app system_userdir_file:dir search;
