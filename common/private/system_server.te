@@ -43,6 +43,9 @@ add_service(system_server, refresh_rate_manager_service);
 # AxSandbox
 add_service(system_server, ax_sandbox_service);
 
+# Obscura
+add_service(system_server, obscura_service);
+
 # Sandbox
 allow system_server ax_sandbox_vault_file:dir create_dir_perms;
 allow system_server ax_sandbox_vault_file:file create_file_perms;

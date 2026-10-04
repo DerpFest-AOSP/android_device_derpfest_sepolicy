@@ -26,3 +26,6 @@ parallel                                  u:object_r:parallel_space_service:s0
 
 # AxSandbox
 ax_sandbox                              u:object_r:ax_sandbox_service:s0
+
+# Obscura
+obscura                                 u:object_r:obscura_service:s0
